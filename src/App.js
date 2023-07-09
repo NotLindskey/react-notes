@@ -22,6 +22,7 @@ class App extends React.Component {
     return (
       <div>
         <Home boards={this.state.boards} createNewBoard={this.createNewBoard} />
+        <Board />
       </div>
     );
   }
